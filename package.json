@@ -1,10 +1,11 @@
 {
   "name": "react-three-renderer",
-  "version": "3.0.2",
+  "version": "3.0.2-wf1",
   "description": "Render into a three.js canvas using React.",
   "main": "./lib/React3.js",
   "scripts": {
     "compile": "gulp babel",
+    "dist": "gulp dist",
     "prepublish": "in-publish && npm test || not-in-publish",
     "test": "gulp test"
   },
@@ -50,6 +51,8 @@
     "gulp-cached": "^1.1.1",
     "gulp-eslint": "^3.0.1",
     "gulp-util": "3.0.8",
+    "gulp-webpack": "^1.5.0",
+    "gulp-zip": "^4.0.0",
     "in-publish": "^2.0.0",
     "isparta-loader": "2.0.0",
     "karma": "1.3.0",
@@ -60,7 +63,7 @@
     "karma-sourcemap-loader": "0.3.7",
     "karma-spec-reporter": "0.0.26",
     "karma-travis-fold-reporter": "1.0.1",
-    "karma-webpack": "1.8.0",
+    "karma-webpack": "2.0.3",
     "mocha": "3.2.0",
     "mocha-loader": "1.0.0",
     "pngjs2": "2.0.0",
@@ -70,8 +73,8 @@
     "source-map-support": "0.4.6",
     "stream-to-string": "1.1.0",
     "three": "0.82.1",
-    "webpack": "1.13.3",
-    "webpack-dev-server": "1.16.2"
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.3.3"
   },
   "repository": {
     "type": "git",

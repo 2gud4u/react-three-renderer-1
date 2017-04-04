@@ -5,6 +5,7 @@ import babel from 'gulp-babel';
 import del from 'del';
 import path from 'path';
 import eslint from 'gulp-eslint';
+import zip from 'gulp-zip';
 import cache from 'gulp-cached';
 import { log, PluginError, colors } from 'gulp-util';
 import { Server as KarmaServer } from 'karma';
@@ -34,17 +35,25 @@ gulp.task('doc', (done) => {
   docGenerator(done);
 });
 
+gulp.task('dist', () => {
+  /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved */
+  const version = require('package.json').version;
+  return gulp.src(['./*', './src/**', './dist/**/*.js'])
+         .pipe(zip(`react-three-renderer-${version}.zip`))
+         .pipe(gulp.dest('./zip'));
+});
+
 /* eslint-enable global-require */
 
 gulp.task('eslint', () => {
   let failures = 0;
 
-  return gulp.src(['./*', './src/**/*', './docs/src/**/*', './tests/**/*'].reduce((result, current) => {
+  return gulp.src(['./src/**/*', './docs/src/**/*', './tests/**/*'].reduce((result, current) => {
     result.push(`${current}.js`);
     result.push(`${current}.jsx`);
 
     return result;
-  }, []).concat(['!./tests/coverage/**/*']))
+  }, ['./gulpfile.js', './gulpfile.babel.js']).concat(['!./tests/coverage/**/*']))
     .pipe(cache('eslint'))
     .pipe(eslint({
       cache: true,
