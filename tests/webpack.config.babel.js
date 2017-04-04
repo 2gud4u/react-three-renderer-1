@@ -78,6 +78,7 @@ export default (options) => {
   const webpackConfig = {
     devtool: 'inline-source-map',
     // *optional* isparta options: istanbul behind isparta will use it
+    /*
     isparta: {
       embedSource: true,
       noAutoWrap: true,
@@ -86,6 +87,7 @@ export default (options) => {
         //   presets: ['es2015', 'stage-0', 'react']
       },
     },
+    */
     module: {
       loaders: [
         babelLoaderConfig,
@@ -105,7 +107,7 @@ export default (options) => {
     ),
     resolve: {
       extensions: [
-        '',
+//        '',
         '.js',
         '.jsx',
       ],
@@ -120,7 +122,7 @@ export default (options) => {
     webpackConfig.module.preLoaders = [{
       test: /\.jsx?$/,
       include: srcResolve,
-      loader: 'isparta',
+      // loader: 'isparta',
     }];
   }
 
