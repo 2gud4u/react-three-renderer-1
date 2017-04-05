@@ -2,6 +2,24 @@ Internal workframe fork of [react-three-renderer](https://github.com/toxicFork/r
 
 We're mostly doing this to have more control over merging PRs and distribution.
 
+### Creating a release
+
+- push master
+- Go to the [circleci build](https://circleci.com/gh/workframers/react-three-renderer),
+  hit "Artifacts", and download the .zip file
+- On github, [draft a new release](https://github.com/workframers/react-three-renderer/releases/new)
+- Upload to zip file you got from circleci
+- Update the URL and checksums in the
+  [react-three-renderer-cljsjs project](https://github.com/workframers/react-three-renderer-cljsjs)
+  according to the instructions there
+
+### Pulling from upstream
+
+- `git remote add upstream https://github.com/toxicFork/react-three-renderer.git`
+- `git pull upstream master`
+
+Original README follows:
+
 react-three-renderer
 ====================
 
