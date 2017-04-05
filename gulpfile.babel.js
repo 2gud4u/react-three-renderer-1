@@ -10,6 +10,7 @@ import cache from 'gulp-cached';
 import { log, PluginError, colors } from 'gulp-util';
 import { Server as KarmaServer } from 'karma';
 import minimist from 'minimist';
+import { version } from './package.json';
 
 /* eslint-enable import/no-extraneous-dependencies */
 
@@ -35,13 +36,10 @@ gulp.task('doc', (done) => {
   docGenerator(done);
 });
 
-gulp.task('dist', () => {
-  /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved */
-  const version = require('package.json').version;
-  return gulp.src(['./*', './src/**', './dist/**/*.js'])
-         .pipe(zip(`react-three-renderer-${version}.zip`))
-         .pipe(gulp.dest('./zip'));
-});
+gulp.task('dist', () =>
+  gulp.src(['./*', './src/**', './dist/**/*.js'])
+      .pipe(zip(`react-three-renderer-${version}.zip`))
+      .pipe(gulp.dest('./zip')));
 
 /* eslint-enable global-require */
 
