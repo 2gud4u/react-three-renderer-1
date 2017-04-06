@@ -8,13 +8,14 @@ module.exports = function (env) {
 
     output: {
       path: path.resolve(__dirname, 'dist'),
+      library: 'React3',
       filename: (env === 'production') ? 'react-three-renderer-min.js' : 'react-three-renderer.js'
     },
 
     externals: {
       three: {
-        commonjs: "three",
-        amd: "three",
+        // commonjs: "three",
+        // amd: "three",
         root: "THREE"
       },
       react: {
@@ -35,7 +36,10 @@ module.exports = function (env) {
 
     module: {
       rules: [
-        {test: /\.(js|jsx)$/, use: 'babel-loader'}
+        {
+          test: /\.(js|jsx)$/,
+          use: 'babel-loader'
+        }
       ]
     }
   }

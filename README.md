@@ -8,7 +8,7 @@ We're mostly doing this to have more control over merging PRs and distribution.
 - Go to the [circleci build](https://circleci.com/gh/workframers/react-three-renderer),
   hit "Artifacts", and download the .zip file
 - On github, [draft a new release](https://github.com/workframers/react-three-renderer/releases/new)
-- Upload to zip file you got from circleci
+- Upload the zip file you got from circleci
 - Update the URL and checksums in the
   [react-three-renderer-cljsjs project](https://github.com/workframers/react-three-renderer-cljsjs)
   according to the instructions there
@@ -17,6 +17,23 @@ We're mostly doing this to have more control over merging PRs and distribution.
 
 - `git remote add upstream https://github.com/toxicFork/react-three-renderer.git`
 - `git pull upstream master`
+
+### Generating externs
+
+- Build the minified file:
+
+```
+rm -f dist/*.js; webpack && webpack -p --env production
+```
+
+- Go to this page: [Closure Compiler Externs Extractor](http://www.dotnetwise.com/code/externs/)
+- Start up a web server for the compiled files:
+  - `cd dist; python -mSimpleHTTPServer 3000`
+- Load dependencies into browser one at a time:
+  - https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js
+  - http://localhost:3000/react-three-renderer-min.js
 
 Original README follows:
 
