@@ -9,6 +9,8 @@ import cache from 'gulp-cached';
 import { log, PluginError, colors } from 'gulp-util';
 import { Server as KarmaServer } from 'karma';
 import minimist from 'minimist';
+import { rollup } from 'rollup';
+import rollupConfig from './rollup.config';
 
 /* eslint-enable import/no-extraneous-dependencies */
 
@@ -21,11 +23,17 @@ gulp.task('clean-lib', () => del(['lib/']));
 /* eslint-disable global-require */
 
 gulp.task('babel', gulp.series('clean-lib', () => gulp.src([
-  'src/lib/**/*.js',
-  'src/lib/**/*.jsx',
-])
+    'src/lib/**/*.js',
+    'src/lib/**/*.jsx',
+  ])
   .pipe(babel(require('./package.json').babel))
   .pipe(gulp.dest('lib/'))), emptyTask);
+
+gulp.task('rollup', () => rollup(rollupConfig)
+  .then(bundle => bundle.write({
+    format: 'iffe',
+    dest: 'dist/bundle.js'
+  })));
 
 gulp.task('doc', (done) => {
   // require the generator here
