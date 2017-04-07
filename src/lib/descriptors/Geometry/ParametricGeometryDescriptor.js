@@ -36,4 +36,6 @@ class ParametricGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = ParametricGeometryDescriptor;
+// module.exports = ParametricGeometryDescriptor;
+export default ParametricGeometryDescriptor;
+

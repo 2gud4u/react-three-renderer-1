@@ -35,4 +35,6 @@ class PolyhedronGeometryDescriptor extends PolyhedronGeometryDescriptorBase {
   }
 }
 
-module.exports = PolyhedronGeometryDescriptor;
+// module.exports = PolyhedronGeometryDescriptor;
+export default PolyhedronGeometryDescriptor;
+

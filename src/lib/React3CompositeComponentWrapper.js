@@ -430,4 +430,6 @@ class React3CompositeComponentWrapper extends ReactCompositeComponentMixinImpl {
   }
 }
 
-module.exports = React3CompositeComponentWrapper;
+// module.exports = React3CompositeComponentWrapper;
+export default React3CompositeComponentWrapper;
+

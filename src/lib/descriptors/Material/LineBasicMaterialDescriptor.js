@@ -50,4 +50,6 @@ class LineBasicMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = LineBasicMaterialDescriptor;
+// module.exports = LineBasicMaterialDescriptor;
+export default LineBasicMaterialDescriptor;
+

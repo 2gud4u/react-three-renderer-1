@@ -16,4 +16,6 @@ class Uniform {
   }
 }
 
-module.exports = Uniform;
+// module.exports = Uniform;
+export default Uniform;
+

@@ -12,4 +12,6 @@ function PropTypeError(message) {
 // Make `instanceof Error` still work for returned errors.
 PropTypeError.prototype = Error.prototype;
 
-module.exports = PropTypeError;
+// module.exports = PropTypeError;
+export default PropTypeError;
+

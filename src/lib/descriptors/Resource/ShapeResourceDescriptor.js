@@ -28,4 +28,6 @@ class ShapeResourceDescriptor extends ResourceDescriptorBase {
   }
 }
 
-module.exports = ShapeResourceDescriptor;
+// module.exports = ShapeResourceDescriptor;
+export default ShapeResourceDescriptor;
+

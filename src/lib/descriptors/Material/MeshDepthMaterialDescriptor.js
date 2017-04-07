@@ -19,4 +19,6 @@ class MeshDepthMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = MeshDepthMaterialDescriptor;
+// module.exports = MeshDepthMaterialDescriptor;
+export default MeshDepthMaterialDescriptor;
+

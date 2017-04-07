@@ -430,4 +430,6 @@ if (process.env.NODE_ENV !== 'production') {
     };
 }
 
-module.exports = THREEElementDescriptor;
+// module.exports = THREEElementDescriptor;
+export default THREEElementDescriptor;
+

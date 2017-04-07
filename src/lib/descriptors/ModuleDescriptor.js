@@ -68,4 +68,6 @@ class ModuleDescriptor extends THREEElementDescriptor {
   }
 }
 
-module.exports = ModuleDescriptor;
+// module.exports = ModuleDescriptor;
+export default ModuleDescriptor;
+

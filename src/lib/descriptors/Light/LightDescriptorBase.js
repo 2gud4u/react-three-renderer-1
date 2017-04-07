@@ -297,4 +297,6 @@ To acknowledge and remove this message, please add the property 'updatesRefreshA
 For more information, visit https://github.com/mrdoob/threejs/wiki/Updates .`;
 }
 
-module.exports = LightDescriptorBase;
+// module.exports = LightDescriptorBase;
+export default LightDescriptorBase;
+

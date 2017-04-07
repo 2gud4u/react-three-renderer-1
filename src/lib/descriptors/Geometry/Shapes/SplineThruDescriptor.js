@@ -22,4 +22,6 @@ class SplineThruDescriptor extends ShapeActionDescriptorBase {
   }
 }
 
-module.exports = SplineThruDescriptor;
+// module.exports = SplineThruDescriptor;
+export default SplineThruDescriptor;
+

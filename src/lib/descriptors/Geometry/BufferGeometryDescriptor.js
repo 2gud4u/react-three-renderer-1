@@ -58,4 +58,6 @@ class BufferGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = BufferGeometryDescriptor;
+// module.exports = BufferGeometryDescriptor;
+export default BufferGeometryDescriptor;
+

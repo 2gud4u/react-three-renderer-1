@@ -44,4 +44,6 @@ class BezierCurveToDescriptor extends ShapeActionDescriptorBase {
   }
 }
 
-module.exports = BezierCurveToDescriptor;
+// module.exports = BezierCurveToDescriptor;
+export default BezierCurveToDescriptor;
+

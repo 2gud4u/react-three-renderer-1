@@ -61,4 +61,6 @@ class GridHelperDescriptor extends Object3DDescriptor {
   }
 }
 
-module.exports = GridHelperDescriptor;
+// module.exports = GridHelperDescriptor;
+export default GridHelperDescriptor;
+

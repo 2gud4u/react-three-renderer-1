@@ -34,4 +34,6 @@ class CircleGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = CircleGeometryDescriptor;
+// module.exports = CircleGeometryDescriptor;
+export default CircleGeometryDescriptor;
+

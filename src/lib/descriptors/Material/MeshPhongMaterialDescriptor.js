@@ -161,4 +161,6 @@ class MeshPhongMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = MeshPhongMaterialDescriptor;
+// module.exports = MeshPhongMaterialDescriptor;
+export default MeshPhongMaterialDescriptor;
+

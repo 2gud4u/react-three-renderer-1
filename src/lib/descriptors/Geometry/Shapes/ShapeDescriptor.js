@@ -14,4 +14,6 @@ class ShapeDescriptor extends PathDescriptorBase {
   }
 }
 
-module.exports = ShapeDescriptor;
+// module.exports = ShapeDescriptor;
+export default ShapeDescriptor;
+

@@ -164,4 +164,6 @@ class CameraHelperDescriptor extends Object3DDescriptor {
   }
 }
 
-module.exports = CameraHelperDescriptor;
+// module.exports = CameraHelperDescriptor;
+export default CameraHelperDescriptor;
+

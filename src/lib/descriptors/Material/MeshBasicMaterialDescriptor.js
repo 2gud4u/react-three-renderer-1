@@ -22,4 +22,6 @@ class MeshBasicMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = MeshBasicMaterialDescriptor;
+// module.exports = MeshBasicMaterialDescriptor;
+export default MeshBasicMaterialDescriptor;
+

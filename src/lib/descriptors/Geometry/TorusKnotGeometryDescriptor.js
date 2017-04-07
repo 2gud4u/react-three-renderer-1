@@ -47,4 +47,6 @@ class TorusKnotGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = TorusKnotGeometryDescriptor;
+// module.exports = TorusKnotGeometryDescriptor;
+export default TorusKnotGeometryDescriptor;
+

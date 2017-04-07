@@ -32,4 +32,6 @@ class DodecahedronGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = DodecahedronGeometryDescriptor;
+// module.exports = DodecahedronGeometryDescriptor;
+export default DodecahedronGeometryDescriptor;
+

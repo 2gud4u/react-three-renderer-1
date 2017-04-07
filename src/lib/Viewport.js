@@ -15,4 +15,6 @@ class Viewport {
   }
 }
 
-module.exports = Viewport;
+// module.exports = Viewport;
+export default Viewport;
+

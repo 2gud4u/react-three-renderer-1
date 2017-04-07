@@ -3,4 +3,6 @@
 
 import React3 from './lib/React3';
 
-module.exports = React3;
+// module.exports = React3;
+export default React3;
+

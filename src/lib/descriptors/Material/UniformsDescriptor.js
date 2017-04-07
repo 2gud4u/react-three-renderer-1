@@ -43,4 +43,6 @@ class UniformsDescriptor extends THREEElementDescriptor {
   }
 }
 
-module.exports = UniformsDescriptor;
+// module.exports = UniformsDescriptor;
+export default UniformsDescriptor;
+

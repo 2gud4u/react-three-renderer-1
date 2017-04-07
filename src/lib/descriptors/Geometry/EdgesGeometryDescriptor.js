@@ -34,4 +34,6 @@ class EdgesGeometryDescriptor extends BufferGeometryDescriptorBase {
   }
 }
 
-module.exports = EdgesGeometryDescriptor;
+// module.exports = EdgesGeometryDescriptor;
+export default EdgesGeometryDescriptor;
+

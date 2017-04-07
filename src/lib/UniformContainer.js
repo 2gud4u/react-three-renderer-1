@@ -8,4 +8,6 @@ class UniformContainer {
   }
 }
 
-module.exports = UniformContainer;
+// module.exports = UniformContainer;
+export default UniformContainer;
+

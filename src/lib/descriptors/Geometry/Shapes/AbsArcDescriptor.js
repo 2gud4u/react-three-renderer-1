@@ -49,4 +49,6 @@ class AbsArcDescriptor extends ShapeActionDescriptorBase {
   }
 }
 
-module.exports = AbsArcDescriptor;
+// module.exports = AbsArcDescriptor;
+export default AbsArcDescriptor;
+

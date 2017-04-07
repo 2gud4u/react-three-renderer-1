@@ -20,4 +20,6 @@ class HoleDescriptor extends PathDescriptorBase {
   }
 }
 
-module.exports = HoleDescriptor;
+// module.exports = HoleDescriptor;
+export default HoleDescriptor;
+

@@ -50,6 +50,7 @@ if (process.env.NODE_ENV !== 'production') {
   // Some performance is sacrificed for this.
 
   // TODO: could have an env variable to disable this?
+  /*
   if (!THREE._renamed) {
     THREE._renamed = true;
 
@@ -61,6 +62,7 @@ if (process.env.NODE_ENV !== 'production') {
     THREE.Euler.displayName = 'THREE.Euler';
     THREE.Fog.displayName = 'THREE.Fog';
   }
+  */
 
   getDeclarationErrorAddendum = (owner) => {
     if (owner) {
@@ -1147,4 +1149,5 @@ class React3Renderer {
 }
 
 
-module.exports = React3Renderer;
+// module.exports = React3Renderer;
+export default React3Renderer;

@@ -23,4 +23,6 @@ class LineSegmentDescriptor extends MeshDescriptor {
   }
 }
 
-module.exports = LineSegmentDescriptor;
+// module.exports = LineSegmentDescriptor;
+export default LineSegmentDescriptor;
+

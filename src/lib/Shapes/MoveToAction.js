@@ -15,4 +15,6 @@ class MoveToAction extends ShapeAction {
   }
 }
 
-module.exports = MoveToAction;
+// module.exports = MoveToAction;
+export default MoveToAction;
+

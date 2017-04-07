@@ -234,7 +234,7 @@ function getMarkupFromInstance(inst) {
   return currentInstance._hostMarkup;
 }
 
-module.exports = {
+export default {
   getMarkupFromInstance,
   getInstanceFromMarkup,
   precacheMarkup,

@@ -61,4 +61,6 @@ class SpotLightDescriptor extends LightDescriptorBase {
   }
 }
 
-module.exports = SpotLightDescriptor;
+// module.exports = SpotLightDescriptor;
+export default SpotLightDescriptor;
+

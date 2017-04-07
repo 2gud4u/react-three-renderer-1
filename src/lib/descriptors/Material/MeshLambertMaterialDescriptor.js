@@ -49,4 +49,6 @@ class MeshLambertMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = MeshLambertMaterialDescriptor;
+// module.exports = MeshLambertMaterialDescriptor;
+export default MeshLambertMaterialDescriptor;
+

@@ -248,4 +248,6 @@ class React3Descriptor extends THREEElementDescriptor {
   }
 }
 
-module.exports = React3Descriptor;
+// module.exports = React3Descriptor;
+export default React3Descriptor;
+

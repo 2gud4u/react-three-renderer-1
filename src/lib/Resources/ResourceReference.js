@@ -9,4 +9,6 @@ class ResourceReference {
   }
 }
 
-module.exports = ResourceReference;
+// module.exports = ResourceReference;
+export default ResourceReference;
+

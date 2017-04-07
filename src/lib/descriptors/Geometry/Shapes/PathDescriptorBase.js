@@ -82,4 +82,6 @@ class PathDescriptorBase extends THREEElementDescriptor {
   }
 }
 
-module.exports = PathDescriptorBase;
+// module.exports = PathDescriptorBase;
+export default PathDescriptorBase;
+

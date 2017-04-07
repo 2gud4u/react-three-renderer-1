@@ -33,4 +33,6 @@ class AbsEllipseAction extends ShapeAction {
     );
   }
 }
-module.exports = AbsEllipseAction;
+// module.exports = AbsEllipseAction;
+export default AbsEllipseAction;
+

@@ -61,4 +61,6 @@ class PerspectiveCameraDescriptor extends CameraDescriptorBase {
   }
 }
 
-module.exports = PerspectiveCameraDescriptor;
+// module.exports = PerspectiveCameraDescriptor;
+export default PerspectiveCameraDescriptor;
+

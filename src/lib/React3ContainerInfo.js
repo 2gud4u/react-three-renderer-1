@@ -7,4 +7,6 @@ function React3ContainerInfo(topLevelWrapper, instance) { // eslint-disable-line
   return info;
 }
 
-module.exports = React3ContainerInfo;
+// module.exports = React3ContainerInfo;
+export default React3ContainerInfo;
+

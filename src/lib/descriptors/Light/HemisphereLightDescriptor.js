@@ -29,4 +29,6 @@ class HemisphereLightDescriptor extends LightDescriptorBase {
   }
 }
 
-module.exports = HemisphereLightDescriptor;
+// module.exports = HemisphereLightDescriptor;
+export default HemisphereLightDescriptor;
+

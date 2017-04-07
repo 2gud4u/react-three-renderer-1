@@ -22,4 +22,6 @@ class CubeCameraDescriptor extends Object3DDescriptor {
   }
 }
 
-module.exports = CubeCameraDescriptor;
+// module.exports = CubeCameraDescriptor;
+export default CubeCameraDescriptor;
+

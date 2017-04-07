@@ -23,4 +23,6 @@ class QuadraticCurveToAction extends ShapeAction {
   }
 }
 
-module.exports = QuadraticCurveToAction;
+// module.exports = QuadraticCurveToAction;
+export default QuadraticCurveToAction;
+

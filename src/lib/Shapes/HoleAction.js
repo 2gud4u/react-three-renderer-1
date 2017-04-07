@@ -14,4 +14,6 @@ class HoleAction extends ShapeAction {
   }
 }
 
-module.exports = HoleAction;
+// module.exports = HoleAction;
+export default HoleAction;
+

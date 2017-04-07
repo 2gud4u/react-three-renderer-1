@@ -24,4 +24,6 @@ class MoveToDescriptor extends ShapeActionDescriptorBase {
   }
 }
 
-module.exports = MoveToDescriptor;
+// module.exports = MoveToDescriptor;
+export default MoveToDescriptor;
+

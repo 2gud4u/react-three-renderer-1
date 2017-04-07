@@ -216,4 +216,6 @@ class ResourceDescriptorBase extends THREEElementDescriptor {
   }
 }
 
-module.exports = ResourceDescriptorBase;
+// module.exports = ResourceDescriptorBase;
+export default ResourceDescriptorBase;
+

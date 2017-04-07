@@ -24,4 +24,6 @@ removeDevTool.restore = function restore() {
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
 };
 
-module.exports = removeDevTool;
+// module.exports = removeDevTool;
+export default removeDevTool;
+

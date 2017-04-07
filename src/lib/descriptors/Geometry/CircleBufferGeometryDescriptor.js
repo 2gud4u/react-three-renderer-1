@@ -34,4 +34,6 @@ class CircleBufferGeometryDescriptor extends BufferGeometryDescriptorBase {
   }
 }
 
-module.exports = CircleBufferGeometryDescriptor;
+// module.exports = CircleBufferGeometryDescriptor;
+export default CircleBufferGeometryDescriptor;
+

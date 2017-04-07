@@ -28,4 +28,6 @@ class ShapeActionDescriptorBase extends THREEElementDescriptor {
   }
 }
 
-module.exports = ShapeActionDescriptorBase;
+// module.exports = ShapeActionDescriptorBase;
+export default ShapeActionDescriptorBase;
+

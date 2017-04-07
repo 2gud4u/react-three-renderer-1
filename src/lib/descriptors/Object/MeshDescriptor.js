@@ -62,4 +62,6 @@ class MeshDescriptor extends Object3DDescriptor {
   }
 }
 
-module.exports = MeshDescriptor;
+// module.exports = MeshDescriptor;
+export default MeshDescriptor;
+

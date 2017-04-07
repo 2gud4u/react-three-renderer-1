@@ -1,4 +1,4 @@
-module.exports = () => {
+export default () => {
   try {
     const canvas = document.createElement('canvas');
     return !!(window.WebGLRenderingContext

@@ -60,4 +60,6 @@ class AbsEllipseDescriptor extends ShapeActionDescriptorBase {
   }
 }
 
-module.exports = AbsEllipseDescriptor;
+// module.exports = AbsEllipseDescriptor;
+export default AbsEllipseDescriptor;
+

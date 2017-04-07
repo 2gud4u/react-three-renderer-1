@@ -16,4 +16,6 @@ class MeshNormalMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = MeshNormalMaterialDescriptor;
+// module.exports = MeshNormalMaterialDescriptor;
+export default MeshNormalMaterialDescriptor;
+

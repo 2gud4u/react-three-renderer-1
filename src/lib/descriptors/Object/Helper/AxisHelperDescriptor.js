@@ -34,4 +34,6 @@ class AxisHelperDescriptor extends Object3DDescriptor {
   }
 }
 
-module.exports = AxisHelperDescriptor;
+// module.exports = AxisHelperDescriptor;
+export default AxisHelperDescriptor;
+

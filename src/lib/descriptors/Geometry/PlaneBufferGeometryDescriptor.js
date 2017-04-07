@@ -43,4 +43,6 @@ class PlaneBufferGeometryDescriptor extends BufferGeometryDescriptorBase {
   }
 }
 
-module.exports = PlaneBufferGeometryDescriptor;
+// module.exports = PlaneBufferGeometryDescriptor;
+export default PlaneBufferGeometryDescriptor;
+

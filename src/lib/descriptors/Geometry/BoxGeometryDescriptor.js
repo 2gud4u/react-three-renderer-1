@@ -48,4 +48,6 @@ class BoxGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = BoxGeometryDescriptor;
+// module.exports = BoxGeometryDescriptor;
+export default BoxGeometryDescriptor;
+

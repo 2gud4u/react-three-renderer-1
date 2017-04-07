@@ -13,4 +13,6 @@ class TetrahedronGeometryDescriptor extends PolyhedronGeometryDescriptorBase {
   }
 }
 
-module.exports = TetrahedronGeometryDescriptor;
+// module.exports = TetrahedronGeometryDescriptor;
+export default TetrahedronGeometryDescriptor;
+

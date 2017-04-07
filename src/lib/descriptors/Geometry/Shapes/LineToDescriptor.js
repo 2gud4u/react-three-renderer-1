@@ -24,4 +24,6 @@ class LineToDescriptor extends ShapeActionDescriptorBase {
   }
 }
 
-module.exports = LineToDescriptor;
+// module.exports = LineToDescriptor;
+export default LineToDescriptor;
+

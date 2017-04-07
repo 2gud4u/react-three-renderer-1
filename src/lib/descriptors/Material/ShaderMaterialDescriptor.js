@@ -65,4 +65,6 @@ class ShaderMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = ShaderMaterialDescriptor;
+// module.exports = ShaderMaterialDescriptor;
+export default ShaderMaterialDescriptor;
+

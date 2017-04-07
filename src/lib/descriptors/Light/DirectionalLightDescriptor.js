@@ -83,4 +83,6 @@ class DirectionalLightDescriptor extends LightDescriptorBase {
   }
 }
 
-module.exports = DirectionalLightDescriptor;
+// module.exports = DirectionalLightDescriptor;
+export default DirectionalLightDescriptor;
+

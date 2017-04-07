@@ -81,4 +81,6 @@ class TextGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = TextGeometryDescriptor;
+// module.exports = TextGeometryDescriptor;
+export default TextGeometryDescriptor;
+

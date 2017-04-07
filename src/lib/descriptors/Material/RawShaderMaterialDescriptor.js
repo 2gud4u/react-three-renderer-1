@@ -20,4 +20,6 @@ class RawShaderMaterialDescriptor extends ShaderMaterialDescriptor {
   }
 }
 
-module.exports = RawShaderMaterialDescriptor;
+// module.exports = RawShaderMaterialDescriptor;
+export default RawShaderMaterialDescriptor;
+

@@ -50,4 +50,6 @@ class PointsMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = PointsMaterialDescriptor;
+// module.exports = PointsMaterialDescriptor;
+export default PointsMaterialDescriptor;
+

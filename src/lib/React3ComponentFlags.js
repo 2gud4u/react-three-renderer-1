@@ -4,4 +4,6 @@ const React3ComponentFlags = {
   hasCachedChildMarkups: 1 << 0,
 };
 
-module.exports = React3ComponentFlags;
+// module.exports = React3ComponentFlags;
+export default React3ComponentFlags;
+

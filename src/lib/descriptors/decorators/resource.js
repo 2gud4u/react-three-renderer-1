@@ -110,4 +110,6 @@ function resource(descriptor) {
   return ResourceDescriptor;
 }
 
-module.exports = resource;
+// module.exports = resource;
+export default resource;
+

@@ -38,4 +38,6 @@ class SpriteMaterialDescriptor extends MaterialDescriptorBase {
   }
 }
 
-module.exports = SpriteMaterialDescriptor;
+// module.exports = SpriteMaterialDescriptor;
+export default SpriteMaterialDescriptor;
+

@@ -53,4 +53,6 @@ class TubeGeometryDescriptor extends GeometryDescriptorBase {
   }
 }
 
-module.exports = TubeGeometryDescriptor;
+// module.exports = TubeGeometryDescriptor;
+export default TubeGeometryDescriptor;
+

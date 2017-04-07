@@ -14,4 +14,6 @@ class ShapeGeometryDescriptor extends GeometryWithShapesDescriptor {
   }
 }
 
-module.exports = ShapeGeometryDescriptor;
+// module.exports = ShapeGeometryDescriptor;
+export default ShapeGeometryDescriptor;
+

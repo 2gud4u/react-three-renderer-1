@@ -45,4 +45,6 @@ class SpriteDescriptor extends Object3DDescriptor {
 }
 
 
-module.exports = SpriteDescriptor;
+// module.exports = SpriteDescriptor;
+export default SpriteDescriptor;
+

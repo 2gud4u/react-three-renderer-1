@@ -308,4 +308,6 @@ class MaterialDescriptorBase extends THREEElementDescriptor {
   _invalidChild = child => this.invalidChildInternal(child);
 }
 
-module.exports = MaterialDescriptorBase;
+// module.exports = MaterialDescriptorBase;
+export default MaterialDescriptorBase;
+

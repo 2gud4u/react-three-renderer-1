@@ -141,4 +141,6 @@ class ArrowHelperDescriptor extends Object3DDescriptor {
   }
 }
 
-module.exports = ArrowHelperDescriptor;
+// module.exports = ArrowHelperDescriptor;
+export default ArrowHelperDescriptor;
+

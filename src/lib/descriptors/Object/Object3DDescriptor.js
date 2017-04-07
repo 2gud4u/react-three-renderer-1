@@ -236,4 +236,6 @@ class Object3DDescriptor extends THREEElementDescriptor {
   }
 }
 
-module.exports = Object3DDescriptor;
+// module.exports = Object3DDescriptor;
+export default Object3DDescriptor;
+

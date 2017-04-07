@@ -5,4 +5,6 @@ import ResourceReference from './ResourceReference';
 class ShapeResourceReference extends ResourceReference {
 }
 
-module.exports = ShapeResourceReference;
+// module.exports = ShapeResourceReference;
+export default ShapeResourceReference;
+

@@ -17,4 +17,6 @@ class PointsDescriptor extends MeshDescriptor {
 }
 
 
-module.exports = PointsDescriptor;
+// module.exports = PointsDescriptor;
+export default PointsDescriptor;
+

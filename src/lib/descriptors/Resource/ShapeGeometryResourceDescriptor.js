@@ -58,4 +58,6 @@ class ShapeGeometryResourceDescriptor extends GeometryResourceDescriptor {
   }
 }
 
-module.exports = ShapeGeometryResourceDescriptor;
+// module.exports = ShapeGeometryResourceDescriptor;
+export default ShapeGeometryResourceDescriptor;
+
