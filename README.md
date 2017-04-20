@@ -1,3 +1,8 @@
+This is Workframe's fork of toxicFork's
+[react-three-renderer](https://github.com/toxicFork/react-three-renderer).
+We use this for our own internal development and intend to submit changes we make
+back to the upstream project. Original README follows:
+
 react-three-renderer
 ====================
 
@@ -152,9 +157,9 @@ Then I wrote my own internal components, these are things like ``` <span/> ```, 
 
 This way, you don't need to import a gazillion different modules.
 
-Another benefit is that it allows me to make things super fast and not depend on composite components at all! 
+Another benefit is that it allows me to make things super fast and not depend on composite components at all!
 
-In effect, a ``` <scene/> ``` has the same effort, and similar effects as creating a  ``` <div/> ```. 
+In effect, a ``` <scene/> ``` has the same effort, and similar effects as creating a  ``` <div/> ```.
 
 TODO
 ====
