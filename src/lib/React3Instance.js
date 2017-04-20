@@ -832,7 +832,9 @@ class React3DInstance {
       texture.dispose();
     }
 
-    this._renderer.dispose();
+    if (typeof this._renderer.dispose === 'function') {
+      this._renderer.dispose();
+    }
   }
 
   willUnmount() {
