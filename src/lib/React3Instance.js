@@ -681,10 +681,13 @@ class React3DInstance {
     if (this._renderer) {
       this.disposeResourcesAndRenderer();
 
-      const contextLossExtension = this._renderer.extensions.get('WEBGL_lose_context');
-      if (contextLossExtension) {
-        // noinspection JSUnresolvedFunction
-        contextLossExtension.loseContext();
+      const extensions = this._renderer.extensions;
+      if (extensions && (typeof extensions.get == 'function'))
+        const contextLossExtension = extensions.get('WEBGL_lose_context');
+        if (contextLossExtension) {
+          // noinspection JSUnresolvedFunction
+          contextLossExtension.loseContext();
+        }
       }
     }
 
